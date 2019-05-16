@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css?family=Akronim');
+
+.PhotoAlbum {
+  width: 45rem;
+  padding: 1rem;
+  margin: auto;
+  background-color: rgba(202, 202, 201, 0.998);
+
+  h2 {
+    padding-top: 3rem;
+
+    font-family: 'Akronim', cursive;
+    font-size: 2rem;
+    text-align: center;
+    text-decoration: underline
+  }
+
+  ul {
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none;
+  }
+
+  li {
+    height: 10rem;
+  }
+
+  img {
+    width: auto;
+    height: 100%;
+  }
+}

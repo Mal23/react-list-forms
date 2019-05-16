@@ -1,0 +1,13 @@
+.Header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  
+  padding: .25rem;
+
+  background-color: black;
+  color: white;
+
+  text-align: center;
+}
