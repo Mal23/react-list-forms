@@ -1,4 +1,6 @@
 import React from 'react';
+import Header from './header/Header';
+import Footer from './footer/Footer';
 import PhotoAlbum from './photos/PhotoAlbum';
 import linda from '../../assets/linda.jpeg';
 import bob from '../../assets/bob.jpeg';
@@ -17,7 +19,9 @@ export default function App() {
 
   return (
     <>
+      <Header />
       <PhotoAlbum title="Bobs Burgers" photos={photos} />
+      <Footer />
     </>
   );
 }
