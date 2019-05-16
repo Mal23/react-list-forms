@@ -1,12 +1,13 @@
 @import url('https://fonts.googleapis.com/css?family=Akronim');
 
 .PhotoAlbum {
-  width: 100rem;
+  width: 45rem;
   padding: 1rem;
   margin: auto;
+  background-color: rgba(202, 202, 201, 0.998);
 
   h2 {
-    padding: 1rem;
+    padding-top: 3rem;
 
     font-family: 'Akronim', cursive;
     font-size: 2rem;
